@@ -14,7 +14,7 @@ public class Car {
 	private Builder mBuilder;
 
 	public static enum FuelType {
-		GASOLINE, DIESEL
+		GAS, DIESEL, BENZIN
 	}
 
 	private Car(Builder builder) {
