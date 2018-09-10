@@ -1,5 +1,4 @@
-# DesignPattern
-## NodeRedFlows
+# Design Pattern
 
 In diesem Repository findet man einige Beispiele zu häufigen Design Patterns
 
