@@ -15,7 +15,7 @@ import decorator_pattern.decorators.Salat;
  * 
  * Quelle: https://www.philipphauer.de/study/se/design-pattern/decorator.php
  * 
- * @author Marcel
+ * @author Marcel Waldau
  *
  */
 public class DemoClient {

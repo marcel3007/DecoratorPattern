@@ -1,5 +1,14 @@
 package builder_pattern;
 
+/**
+ * Ein Auto mit einem Builder fuer ein Auto
+ * 
+ * Quelle:
+ * http://www.karllorey.de/informatik-studium/vorlesungen/objektorientiertes-programmieren/entwurfsmuster-builder-in-java-erbauer/
+ * 
+ * @author Marcel Waldau
+ *
+ */
 public class Car {
 
 	private Builder mBuilder;
@@ -58,14 +67,13 @@ public class Car {
 		private boolean withAirConditioning = true;
 
 		/**
-		 * Benoetigt die Parameter, die gesetzt werden muessen.
 		 *
 		 * @param speed
-		 *            Hoechstgeschwindigkeit.
+		 *            Hoechstgeschwindigkeit
 		 * @param power
-		 *            Leistung.
+		 *            Leistung
 		 * @param ft
-		 *            Kraftstoff-Art.
+		 *            Kraftstoffart
 		 */
 		public Builder(int speed, int power, FuelType ft) {
 			this.speed = speed;
@@ -89,9 +97,9 @@ public class Car {
 		}
 
 		/**
-		 * Erstellt das eigentliche Auto.
+		 * erstellt das eigentliche Auto
 		 *
-		 * @return Das erstellte Auto.
+		 * @return das erstellte Auto
 		 */
 		public Car build() {
 			return new Car(this);
