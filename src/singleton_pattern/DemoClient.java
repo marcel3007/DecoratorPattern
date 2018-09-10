@@ -6,6 +6,7 @@ public class DemoClient {
 		
 		Bankwerte bankwerte = Bankwerte.getInstance();
 	
+		
 		System.out.println(String.format("%s: %.2f", "Zinsen", bankwerte.getZinsen()));
 
 	}

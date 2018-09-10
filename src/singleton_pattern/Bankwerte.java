@@ -6,6 +6,10 @@ public class Bankwerte {
 	
 	private double zinsen = 1.5;
 	
+	private Bankwerte() {
+		
+	}
+	
 	public static Bankwerte getInstance() {
 		if(bankwerte == null)
 			bankwerte = new Bankwerte();

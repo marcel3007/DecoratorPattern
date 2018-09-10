@@ -16,14 +16,6 @@ public abstract class Beilage implements IGericht {
 		this.gericht = gericht;
 	}
 
-	@Override
-	public double getPreis() {
-		return 0;
-	}
-
-	@Override
-	public void printDescription() {
-
-	}
+	
 
 }

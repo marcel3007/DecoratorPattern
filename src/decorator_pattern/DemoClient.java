@@ -1,6 +1,7 @@
 package decorator_pattern;
 
 import decorator_pattern.decorators.Bratkartoffeln;
+import decorator_pattern.decorators.Dessert;
 import decorator_pattern.decorators.Nudeln;
 import decorator_pattern.decorators.Salat;
 
@@ -33,9 +34,11 @@ public class DemoClient {
 
 		System.out.println();
 
-		IGericht gericht3 = new Salat(new Bratkartoffeln(new WienerSchnitzel()));
+		IGericht gericht3 = new Dessert(new Salat(new Bratkartoffeln(new WienerSchnitzel())));
 		gericht3.printDescription();
 		System.out.println("Preis: " + gericht3.getPreis());
+		
+
 	}
 
 }

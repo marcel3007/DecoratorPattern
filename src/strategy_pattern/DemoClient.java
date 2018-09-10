@@ -10,6 +10,8 @@ public class DemoClient {
 		Husky husky = new Husky();
 		husky.bellen(); // ganz leises bellen...
 		husky.laufen(); // Schnelles laufen
+		
+		
 		husky.setLaufVerhalten(new Humpeln());
 		husky.laufen(); // Humpeln
 
