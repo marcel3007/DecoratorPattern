@@ -1,4 +1,4 @@
-package state_pattern.state;
+package state_pattern;
 
 public class Zustand3 implements Zustand {
 
