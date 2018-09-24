@@ -17,7 +17,7 @@ public class DemoClient {
 				.withSunroof(false)
 				.build();
 
-		Car bmwM3 = new Car.Builder(249, 420, Car.FuelType.GASOLINE)
+		Car bmwM3 = new Car.Builder(249, 420, Car.FuelType.GAS)
 				.withAirConditioning(true)
 				.withCdAudio(true)
 				.withSunroof(true)
